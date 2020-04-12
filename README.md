@@ -25,7 +25,7 @@
  - `TARGETDIR="C:\Program Files\Graphics\Inkscape"` — каталог для установки указать явно "C:\Program Files\Graphics\Inkscape",
  
 ### Установка офисного редактора LibreOffice (последней версии на сайте и русскоязычное языковое расширение для него):
-`msiexec /i LibreOffice_6.4.2_Win_x64.msi /passive /norestart /lw "libreoffice-install-log.txt"
+`msiexec /i LibreOffice_6.4.2_Win_x64.msi /passive /norestart /lw "libreoffice-install-log.txt"  
  msiexec /i LibreOffice_6.4.2_Win_x64_helppack_ru.msi /forcerestart`
   
  - `/passive` — автоматический режим (только указатель хода выполнения),
@@ -44,9 +44,9 @@
 `jre-8u241-windows-x64.exe INSTALLCFG=%cd%\jre8-config.txt /L %cd%\jre-log.txt`
 
 #### jre8-config.txt
-`INSTALL_SILENT =Enable
- INSTALLDIR=C:\Java\JRE
- WEB_ANALYTICS=Disable
+`INSTALL_SILENT =Enable  
+ INSTALLDIR=C:\Java\JRE  
+ WEB_ANALYTICS=Disable  
  WEB_JAVA=Enable`
  
  - `INSTALL_SILENT =Enable` — автономный режим установки (без задания вопросов пользователю);

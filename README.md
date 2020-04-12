@@ -25,8 +25,8 @@
  - `TARGETDIR="C:\Program Files\Graphics\Inkscape"` — каталог для установки указать явно "C:\Program Files\Graphics\Inkscape",
  
 ### Установка офисного редактора LibreOffice (последней версии на сайте и русскоязычное языковое расширение для него):
-`msiexec /i LibreOffice_6.4.2_Win_x64.msi /passive /norestart /lw "libreoffice-install-log.txt"`
-`msiexec /i LibreOffice_6.4.2_Win_x64_helppack_ru.msi /forcerestart`
+`msiexec /i LibreOffice_6.4.2_Win_x64.msi /passive /norestart /lw "libreoffice-install-log.txt"  
+msiexec /i LibreOffice_6.4.2_Win_x64_helppack_ru.msi /forcerestart`
   
  - `/passive` — автоматический режим (только указатель хода выполнения),
  - `/norestart` — без перезагрузки после установки LibreOffice, 
